@@ -1,0 +1,53 @@
+/* Style the loan box */
+body {
+    background: linear-gradient(#fe3334, #ff929f);
+  }
+.loan-box {
+    display: block;
+    border: 0;
+    background: linear-gradient(to bottom, #fff, #e6e6e6);
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .loan-box .loan-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .loan-box .loan-buttons button {
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .loan-box .loan-buttons button:first-child {
+    margin-left: 0;
+  }
+  
+  .loan-box .loan-buttons button:last-child {
+    background-color: #fe3334;
+  }
+  
+  .loan-box .loan-buttons button:hover {
+    cursor: pointer;
+  }
+  
+
+  
+  
+  /* Set max-width to limit the width of the loan boxes */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
